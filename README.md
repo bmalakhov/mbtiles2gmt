@@ -1,6 +1,6 @@
 # mbtiles2gmt
 1. Mbtiles2gmt is intend to convert raster maps from *.mbtiles file (based on sqllite) to SASPlanet file cache structure "cache_gmt" also known as «Global mapper» cache.
-2. Copy all files to one dir fro ex. ”convert_dir”
+2. Copy all files to one dir (for exaple ”convert_dir”)
 3. Copy source map file *.mbtiles to convert_dir   (examples https://tiles.nakarte.me/files/)
 4. Open convert.cmd in Notepad editor and specify the name of *.mbtiles file (source) "mbtiles" variable (hr.mbtiles is a test example) 
 set mbtiles=hr.mbtiles
