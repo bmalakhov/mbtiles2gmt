@@ -1,2 +1,14 @@
 # mbtiles2gmt
-Convert raster maps from *.mbtiles file (based on sqllite) to SASPlanet file cache structure "cache_gmt" also known as «Global mapper» cache
+Converter for the raster map from *.mbtiles file (based on sqllite) to SASPlanet file cache structure "cache_gmt" also known as «Global mapper» cache
+1. Mbtiles2gmt is intend to convert raster maps from *.mbtiles file (based on sqllite) to SASPlanet file cache structure "cache_gmt" also known as «Global mapper» cache.
+2. Copy all files to one dir fro ex. ”convert_dir”
+3. Copy source map file *.mbtiles to convert_dir
+4. Specify the name of *.mbtiles file (source) "mbtiles" variable (hr.mbtiles is a test example) 
+set mbtiles=hr.mbtiles
+5. Specify the destination folder with tiles to "dirtiles" variable  
+set dirtiles=c:\sasplanet\cache_gmt\hr
+6. Copy all raster data to C:\SASPlanet\cache_gmt   (it should be looks like C:\SASPlanet\cache_gmt\hr\Z8\......)
+7. Create an zmp file as a copy hr.zmp catalog to C:\SASPlanet\map
+8. Change GUID to to some other value if need be, change NameInCache="dirtile"  for this example specify "hr" withous quotes , specify Ext=.png ,name=your map from mbtiles
+9. Add CacheType = 4  to the end of file params.txt
+10. Open SasPlanet and look for your new map in menu
