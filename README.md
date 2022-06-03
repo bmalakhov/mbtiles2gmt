@@ -10,7 +10,8 @@ set mbtiles=hr.mbtiles
 
 set dirtiles=c:\sasplanet\cache_gmt\hr
 
-6. Copy all raster data to C:\SASPlanet\cache_gmt   (it should be looks like C:\SASPlanet\cache_gmt\hr\Z8\......)
+6. Save convert.cmd and run it.
+6. Copy all appeared raster data to C:\SASPlanet\cache_gmt   (it should be looks like C:\SASPlanet\cache_gmt\hr\Z8\......)
 7. Create an zmp file as a copy hr.zmp catalog to C:\SASPlanet\map
 8. Change GUID to to some other value if need be, change NameInCache="dirtile"  for this example specify "hr" withous quotes , specify Ext=.png ,name=your map from mbtiles
 9. Add CacheType = 4  to the end of file params.txt
