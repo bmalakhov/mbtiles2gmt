@@ -1,5 +1,5 @@
 # mbtiles2gmt
-It batch script is for extracting map tiles from mbtiles file (based on sqllite) to file cache structure "cache_gmt" also known as «Global mapper cache» to use in SASPlanet [http://www.sasgis.org/](http://www.sasgis.org/sasplaneta/)
+this batch script is for extracting map tiles from mbtiles file (based on sqllite) to file cache structure "cache_gmt" also known as «Global mapper cache» to use in SASPlanet [http://www.sasgis.org/](http://www.sasgis.org/sasplaneta/)
 
 mbtiles -> file structure C:\SASPlanet\cache_gmt\hr\Z10\283\...
 
