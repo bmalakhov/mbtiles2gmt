@@ -6,7 +6,8 @@ https://slazav.xyz/maps/podm/all_podm.mbtiles - Slazav MMB maps
 https://tiles.nakarte.me/files/ - maps from https://nakarte.me/
 
 This script converts the sqlite database from mapname.mbtiles to a SasPlanet cache_gmt folder:
-*.mbtiles -> file structure like C:\SASPlanet\cache_gmt\slazav_hr\Z10\283\...
+
+*.mbtiles -> files in folder structure C:\SASPlanet\cache_gmt\slazav_hr\Z10\283\...
 
 1. Copy all files to one dir (for example ”convert_dir”)
 2. Copy source map file *.mbtiles to convert_dir   
