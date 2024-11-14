@@ -20,13 +20,16 @@ set dirtiles=c:\sasplanet\cache_gmt\slazav_hr
 
 5. Save convert.cmd and run it.
 
-How to add this map to SASPlanet:
+How to add this map to SASPlanet as a layer:
+
 7. All Global mapper tiles have to be in C:\SASPlanet\cache_gmt   (it should be looks like C:\SASPlanet\cache_gmt\slazav_hr\Z8\......)
-8. Copy slazav_hr.zmp to  C:\SASPlanet\maps\
-9. Open SasPlanet main menu Layers-> slazav_hr
+   
+9. Copy slazav_hr.zmp to  C:\SASPlanet\maps\
+    
+11. Open SasPlanet main menu Layers-> slazav_hr
 
 Map display options are specified in C:\sasplanet\maps\slazav_hr.zmp\params.txt
-Each map "mapname" must have a unique folder "mapname.zmp" with the "params.txt" file inside. 
+Each map "mapname" must have a unique folder "mapname.zmp" with the "params.txt" inside.
 
 params.txt:
 GUID={...} - an unique ID 
