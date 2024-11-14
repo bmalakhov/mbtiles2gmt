@@ -27,8 +27,10 @@ How to add this map to SASPlanet:
 
 Map display options are specified in C:\sasplanet\maps\slazav_hr.zmp\params.txt
 Each map "mapname" must have a unique folder "mapname.zmp" with the "params.txt" file inside. 
+
 params.txt:
-GUID - unique ID, If a duplicate UUID error occurs change it manually to any other or search how to generate a Globally Unique Identifier (GUID) in windows PowerShell
+GUID={...} - an unique ID 
+If a duplicate UUID error occurs change it manually to any other or search how to generate a Globally Unique Identifier (GUID) in windows PowerShell
 name=slazav_hr - map name
 NameInCache=slazav_hr  -  might have the same value of cache folder (specified in from %dirtile% )
 Ext=.png  - mbtiles map raster data have to be in png format 
