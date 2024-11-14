@@ -1,0 +1,16 @@
+[PARAMS]
+pnum=2
+GUID={cb7dc788-c146-4423-b08d-4a95e795a3c0}
+ParentSubMenu_ru=
+ParentSubMenu_uk=
+ParentSubMenu=
+name=slazav_all_podm
+projection=1
+sradiusa=6378137
+sradiusb=6378137
+asLayer=1
+Ext=.png
+DefHotKey=77
+ContentType=image/png
+CacheType=4
+NameInCache=all_podm
