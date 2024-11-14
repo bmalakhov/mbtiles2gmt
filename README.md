@@ -17,7 +17,7 @@ This script converts the sqlite database from mapname.mbtiles to a SasPlanet cac
 
 set mbtiles=slazav_hr.mbtiles
 
-4. Specify the destination folder with tiles to "dirtiles" variable  (without trailing spaces and trailing\!)
+4. Specify the destination folder with tiles to "dirtiles" variable  (without trailing spaces and trailing slash symbol!)
 
 set dirtiles=c:\sasplanet\cache_gmt\slazav_hr
 
