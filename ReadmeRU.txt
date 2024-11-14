@@ -2,15 +2,15 @@ mbtiles2gmt
 Скрипт для конвертации файлов *.mbtiles (формат БД sqllite) в файловый тайловый кэш формата "cache_gmt"  
 (Global mapper cache) для SASPlanet http://www.sasgis.org/
 
-https://slazav.xyz/maps/hr/slazav_hr.mbtiles - Горные карты Славы З.
-https://slazav.xyz/maps/podm/all_podm.mbtiles - ММБ 
+https://slazav.xyz/maps/hr/slazav_hr.mbtiles - Горные карты Славы З. актуальная версия.
+https://slazav.xyz/maps/podm/all_podm.mbtiles - ММБ актуальная версия.
 https://tiles.nakarte.me/files/ - некоторые карты с FTP накарте
 
 
 Скрипт достает PNG файлы из *.mbtiles и раскладывает их в структуру кэша SASPlanet вида C:\SASPlanet\cache_gmt\slazav_hr\Z10\283...
 
 Как пользоваться:
-1) Копируем все файлы репозитория в одну папку (например "С:\convert_dir")
+1) Копируем все файлы репозитория в одну папку (например "С:\convert_dir") Файл slazav_hr.mbtiles в репозитории демонстрационно-тестовый.
 2) Туда же кладем исходную карту *.mbtiles
 3) Открываем блокнотом convert.cmd и редактируем 2 переменные  (без концевых пробелов и концевого \!)
 
