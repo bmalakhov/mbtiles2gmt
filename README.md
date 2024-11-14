@@ -9,7 +9,7 @@ This script converts the sqlite database from mapname.mbtiles to a SasPlanet cac
 *.mbtiles -> file structure like C:\SASPlanet\cache_gmt\slazav_hr\Z10\283\...
 
 1. Copy all files to one dir (for example ”convert_dir”)
-2. Copy source map file *.mbtiles to convert_dir   (examples https://tiles.nakarte.me/files/)
+2. Copy source map file *.mbtiles to convert_dir   
 3. Open convert.cmd in any text editor and specify the name of *.mbtiles file (source) "mbtiles" variable (hr.mbtiles is a test example)  
 
 set mbtiles=slazav_hr.mbtiles.mbtiles
