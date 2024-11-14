@@ -1,0 +1,6 @@
+var
+  mt: string;
+begin 
+ mt := RegExprReplaceMatchSubStr(GetURLBase, 'mt\.google', 'mt'+inttostr( Random(4) )+'.google' );
+ ResultURL := mt+'&x='+inttostr(GetX)+'&y='+inttostr(GetY)+'&zoom='+inttostr(18-GetZ)+'&hl='+Lang;
+end.
