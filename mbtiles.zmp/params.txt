@@ -1,0 +1,13 @@
+[PARAMS]
+pnum=2
+ParentSubMenu_ru=
+ParentSubMenu_uk=
+ParentSubMenu=
+projection=1
+sradiusa=6378137
+sradiusb=6378137
+asLayer=1
+Ext=.png
+DefHotKey=77
+ContentType=image/png
+CacheType=4
