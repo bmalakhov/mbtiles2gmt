@@ -5,15 +5,27 @@ https://slazav.xyz/maps/hr/slazav_hr.mbtiles - Slazav mountaineering maps
 https://slazav.xyz/maps/podm/all_podm.mbtiles - Slazav MMB maps
 https://tiles.nakarte.me/files/ - maps from https://nakarte.me/
 
-This script convert_args_edit.cmd converts the sqlite database from mapname.mbtiles to a SasPlanet cache_gmt folder:
+This scripts convert converts the sqlite database from mapname.mbtiles to a SasPlanet cache_gmt folder:
 
 *.mbtiles -> files in folder structure C:\SASPlanet\cache_gmt\slazav_hr\Z10\283\...
 
+How to use a script with dialogues  convert_with_dialog.cmd
+
+1. Download all files to one dir (for ex.”convert”)
+2. Copy source map file *.mbtiles to convert_dir
+3. Run convert_with_dialogs.cmd
+4. Select an mbtiles file in a file dialog.
+5. Select Sasplanet main folder (f.e. C:\SasPlanet). 
+6. Run SasPlanet. Open main menu. Open Layers and select map with the same name as mbtiles filename.
+
+
+How to use manually editable script convert_args_edit.cmd.
+
 1. Download all files to one dir (for ex.”convert”)
    
-3. Copy source map file *.mbtiles to convert_dir
+2. Copy source map file *.mbtiles to convert_dir
    
-4. Open convert_args_edit.cmd in а text editor and specify the name of *.mbtiles file (without trailing spaces!)
+3. Open convert_args_edit.cmd in а text editor and specify the name of *.mbtiles file (without trailing spaces!)
 
 set mbtiles=slazav_hr.mbtiles
 
