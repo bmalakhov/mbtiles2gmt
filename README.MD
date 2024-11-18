@@ -1,6 +1,5 @@
 mbtiles2gmt
-Скрипт для конвертации файлов *.mbtiles (формат БД sqllite) в файловый тайловый кэш формата "cache_gmt"  
-(Global mapper cache) для SASPlanet http://www.sasgis.org/
+Скрипт для конвертации файлов *.mbtiles (формат БД sqllite) в файловый тайловый кэш формата "cache_gmt"  (Global mapper cache) для SASPlanet http://www.sasgis.org/
 
 https://slazav.xyz/maps/hr/slazav_hr.mbtiles - Горные карты Славы З. актуальная версия.
 https://slazav.xyz/maps/podm/all_podm.mbtiles - ММБ актуальная версия.
