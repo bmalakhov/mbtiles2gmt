@@ -1,6 +1,19 @@
 mbtiles2gmt
 Скрипт для конвертации файлов *.mbtiles (формат БД sqllite) в файловый тайловый кэш формата "cache_gmt"  (Global mapper cache) для SASPlanet http://www.sasgis.org/
 
+Разработчики прогроаммы SAS Planet реализовали чтение mbtiles!  
+Краткая инструкция - вписать в Params.txt вот такие данные 
+
+CacheType=72
+NameInCache=c:\test.mbtiles
+IsReadOnly=1
+
+Подробнее тут 
+https://www.sasgis.org/mantis/view.php?id=1919
+
+
+
+
 https://slazav.xyz/maps/hr/slazav_hr.mbtiles - Горные карты Славы З. актуальная версия.
 https://slazav.xyz/maps/podm/all_podm.mbtiles - ММБ актуальная версия.
 
@@ -63,3 +76,4 @@ asLayer=1 - признак, что это слоем поверх других �
 NameInCache=slazav_hr должно совпадать с именем подпапки в cache_gmt
 Ext=.png - всегда png в mbtiles
 CacheType = 4 указывает, что это кэш формата "Global mapper" и он лежит в C:\SASPlanet\cache_gmt...
+
